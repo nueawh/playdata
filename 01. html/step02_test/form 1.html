@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form 1.html</title>
+</head>
+<body>
+    <h2>1. 회원가입 페이지</h2>
+    <form>
+        <b>아이디</b> <br> <input type="text" placeholder="아이디를 입력하세요"> <br>
+        <b>비밀번호</b> <br> <input type="password" placeholder="비밀번호를 입력하세요"> <br>
+        <b>이름</b> <br> <input type="text" placeholder="이름을 입력하세요"> <br>
+        <b>성별</b> <br> 
+            <input type="radio"> 여자
+            <input type="radio"> 남자 <br>
+        <b>무엇을 좋아하나요?</b> <br>
+            <input type="checkbox"> 운동
+            <input type="checkbox"> 영화
+            <input type="checkbox"> 자기 <br>
+        <b>하나만 골라보세요</b> <br>
+            <select name="seletion">
+            <option value="">white</option>
+            <option value="">black</option>
+            <option value="">blue</option>
+            <option value="">red</option>
+            </select>
+        <br>
+            <input type="submit" value="제출제출">
+    </form>
+<br><hr>
+    <h2>2. 검색창 만들기</h2>
+    <h3>2-1. Naver 검색창 만들기</h3>
+    <form action="https://search.naver.com/search.naver?query=">
+        <b style="color: green;">NAVER</b> 
+        <input type="text" name="query" placeholder="검색어를 입력하세요" style="border-color: green;"> 
+        <input type="submit" value="검색"> <br>
+        <br>
+    </form>
+    <h3>2-2. Google 검색창 만들기</h3>
+    <form action="https://www.google.com/search?q=">
+        <b style="color: blue;">Google</b>
+        <input type="text" name="query" placeholder="Search" style="border-color: gray;"> 
+        <input type="submit" value="Search">
+    </form>
+</body>
+</html>
